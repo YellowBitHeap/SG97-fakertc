@@ -73,7 +73,7 @@ ifeq ($(DEBUG),1)
 RGBASMFLAGS += -E
 endif
 
-$(gold_obj):   RGBASMFLAGS += -D _GOLD
+$(gold_obj):   RGBASMFLAGS += -D _GOLD -DNO_RTC
 $(silver_obj): RGBASMFLAGS += -D _SILVER
 
 rgbdscheck.o: rgbdscheck.asm

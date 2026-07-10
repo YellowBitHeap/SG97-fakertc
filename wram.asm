@@ -2204,6 +2204,19 @@ wCurDay:: db
 
 	ds 1
 
+;; Kroc - noRTC Patch
+;; backup of the fake RTC's contents
+if DEF(NO_RTC)
+wNoRTC::
+wNoRTCDayHi:: ds 1   ;; = hRTCDayHi
+wNoRTCDayLo:: ds 1   ;; = hRTCDayLo
+wNoRTCHours:: ds 1   ;; = hRTCHours
+wNoRTCMinutes:: ds 1 ;; = hRTCMinutes
+wNoRTCSeconds:: ds 1 ;; = hRTCSeconds
+endc
+
+        ds 1
+
 wObjectFollow_Leader:: db
 wObjectFollow_Follower:: db
 wCenteredObject:: db

@@ -184,6 +184,20 @@ MainMenu_PrintCurrentTimeAndDay:
 	call CheckRTCStatus
 	and %10000000 ; Day count exceeded 16383
 	jp nz, .PrintTimeNotSet
+
+;; kroc - NoRTC patch
+;; to get the main menu to show the correct time of the save,
+;; we need to pull the backed-up RTC time from the save file
+if DEF(NO_RTC)
+	ld a, BANK(sPlayerData)
+	call OpenSRAM
+	ld hl, sPlayerData + (wNoRTC - wPlayerData)
+	ld de, wNoRTC
+	ld bc, 5
+	call CopyBytes
+	call CloseSRAM
+endc
+
 	call UpdateTime
 	hlcoord 1, 13
 	lb bc, 4, 13
