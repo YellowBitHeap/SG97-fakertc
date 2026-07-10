@@ -1,5 +1,7 @@
 This fork of Super Gold 97 is an attempt at adding in the fake rtc from Polished Crystal, for flashcarts and other things that either don't have rtc or the rtc is non functional. Code is not mine I just yoinked it from PC, mostly for my personal use on my ez flash jr (which came with defective rtc).
 
+Specifically, this [commit](https://github.com/Rangi42/polishedcrystal/commit/0312e4964d41490943c483ca1ea818c30831e618#diff-39125231364f604ae02554c58ebf83353b9937fd74b65c76e43ad4f70d7add52R25) and this [commit](https://github.com/Rangi42/polishedcrystal/commit/60bb667cce5fe14520ccff9cd21270f7751f4d8f#diff-1cca07117d28c7cafdfb1fec51bae2c1b25ace03021a9fe0a08f99731085607d).
+
 # Pokémon Super Gold 97
 
 This page is the source for Pokemon Super Gold 97, a game which intends to serve as a "completed" version of the 1997 Pokemon Gold and Silver Spaceworld Demo.
