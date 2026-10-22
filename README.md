@@ -1,4 +1,4 @@
-#Custom Changes
+# Custom Changes
 
 - Rare Candy is now purchaseable in Pagoda City's PokeMart if you don't feel like grinding.
 - The price of a Rare Candy is now 1.
