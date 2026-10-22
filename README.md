@@ -1,3 +1,10 @@
+#Custom Changes
+
+- Rare Candy is now purchaseable in Pagoda City's PokeMart if you don't feel like grinding.
+- The price of a Rare Candy is now 1.
+- Running shoes have been added. This makes the Bicycle pointless i guess.
+- Should still compatible with base SG97, trading/battling wise. Not sure about saves though.
+
 # Pokémon Super Gold 97
 
 This page is the source for Pokemon Super Gold 97, a game which intends to serve as a "completed" version of the 1997 Pokemon Gold and Silver Spaceworld Demo.
